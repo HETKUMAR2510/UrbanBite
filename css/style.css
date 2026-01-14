@@ -1,0 +1,228 @@
+/* =====================
+   GLOBAL STYLES
+===================== */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F6F5F3;
+  color: #1F2933;
+}
+
+.navbar {
+  background-color: #1F2933;
+}
+
+.brand-text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #C89B3C;
+}
+
+footer {
+  background: #1F2933;
+  color: #fff;
+}
+
+/* =====================
+   HOME PAGE – HERO
+===================== */
+
+.hero-img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.55);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.carousel-caption h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+/* =====================
+   HERO – PERSISTENT OVERLAY
+===================== */
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.55);
+  padding: 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  max-width: 500px;
+  z-index: 10;
+}
+
+.hero-overlay h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-overlay p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* =====================
+   BUTTONS (WCAG)
+===================== */
+
+.btn-gold {
+  background-color: #9C6F1E; /* darker gold for contrast */
+  color: #ffffff;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+.btn-gold:hover {
+  background-color: #7f5818;
+}
+
+/* =====================
+   HOME – FEATURES
+===================== */
+
+.feature-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+/* =====================
+   HOME – EXPERIENCE SECTION
+===================== */
+
+.experience-section {
+  background-color: #ffffff;
+}
+
+.experience-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.experience-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* =====================
+   HOME – HIGHLIGHTS STRIP
+===================== */
+
+.highlights-strip {
+  background-color: #1F2933;
+  color: #ffffff;
+}
+
+.highlights-strip h5 {
+  color: #C89B3C;
+  font-weight: 600;
+}
+
+.highlights-strip p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* =====================
+   MENU PAGE
+===================== */
+
+.page-header {
+  background-color: #F6F5F3;
+}
+
+.page-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  color: #1F2933;
+  margin-bottom: 20px;
+}
+
+.menu-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.menu-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.price {
+  font-weight: 600;
+  color: #9C6F1E;
+  margin-top: 10px;
+}
+
+/* =====================
+   ABOUT PAGE
+===================== */
+
+.about-section img {
+  border-radius: 15px;
+}
+
+.lead {
+  color: #555;
+  font-size: 18px;
+}
+
+/* =====================
+   CONTACT PAGE
+===================== */
+
+form {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control:focus {
+  border-color: #9C6F1E;
+  box-shadow: 0 0 0 0.2rem rgba(156, 111, 30, 0.25);
+}
+
+/* =====================
+   ACCESSIBILITY – FOCUS STYLES (WCAG)
+===================== */
+
+a:focus,
+button:focus,
+input:focus {
+  outline: 3px solid #9C6F1E;
+  outline-offset: 3px;
+}
